@@ -1,0 +1,44 @@
+name: commands
+api:  3.8.1
+version: 1.0
+main: Utku\cmd\cmd
+author: Utku
+load: STARTUP
+commands:
+  tag:
+    description: Macht tag.
+    usage: "/tag"
+    permission: time.command
+  nacht:
+    description: Macht nacht.
+    usage: "/nacht"
+    permission: time.command
+  gm0:
+    description: Setzt dich in den gm0
+    usage: "/gm0"
+    permission: gamemode.command
+  gm2:
+    description: Setzt dich in den gm2
+    usage: "/gm2"
+    permission: gamemode.command
+  gm1:
+    description: Setzt dich in den gm1
+    usage: "/gm1"
+    permission: gamemode.command
+  gm3:
+    description: Setzt dich in den gm3
+    usage: "/gm3"
+    permission: gamemode.command
+  heal:
+    description: Füllt deine Herzen auf.
+    usage: "/heal"
+    permission: heal.command
+  food:
+    description: Füllt deine Hungerleiste auf.
+    usage: "/food"
+    permission: food.command
+  food:
+      description: Bekomme Befehle Liste von Befehlen vom Plugin cmd.
+      usage: "/hilfe"
+      permission: hilfe.command
+
