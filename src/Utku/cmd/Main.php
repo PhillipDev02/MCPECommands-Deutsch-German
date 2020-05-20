@@ -115,7 +115,7 @@
             }
             return true;
         }
-        if ($cmd->getName() == "gm3") {
+        if ($cmd->getName() == "hilfe") {
             if ($sender instanceof Player) {
                 if ($sender->hasPermission("hilfe.command")) {
                     $sender->setGamemode(3);
